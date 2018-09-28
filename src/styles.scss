@@ -1,0 +1,19 @@
+@import './base';
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: $body-background-color;
+  font-weight: 300;
+  font-family: $font;
+  color: $body-color;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}

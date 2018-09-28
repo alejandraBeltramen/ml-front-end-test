@@ -1,0 +1,17 @@
+<ul class="search-route">
+  <li *ngFor="let category of productCategories" class="route-item">
+    {{ category }}
+  </li>
+</ul>
+<section class="main-container" *ngFor="let product of productList | slice:0:4">
+  <a class="searched-product" (click)="viewProductDetails(product)">
+    <div class="product-img">
+      <img class="product-list-img" src="{{ product.picture }}" alt="">
+    </div>
+    <div class="product-info">
+      <span class="product-price">${{ product.price.amount }}</span>
+      <i *ngIf="product.free_shipping" class="product-shipping"></i>
+      <p class="product-title">{{ product.title }}</p>
+    </div>
+  </a>
+</section>

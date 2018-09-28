@@ -1,0 +1,18 @@
+<header role="banner" class="search-header">
+  <div class="header-container">
+    <a class="header-logo" href="/"></a>
+    <form class="search-form" role="search">
+      <input type="text"
+             class="search-input"
+             [(ngModel)]="productToSearch"
+             name="productToSearch"
+             placeholder="{{ searchPlaceholder }}">
+      <button type="submit" (click)="search()" class="search-button">
+        <i class="search-img"></i>
+      </button>
+    </form>
+  </div>
+</header>
+<div class="body-main">
+  <router-outlet></router-outlet>
+</div>

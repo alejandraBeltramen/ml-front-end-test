@@ -1,0 +1,42 @@
+// Fonts
+$font: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+$search-input-font-size: 18px;
+$search-route-font-size: 14px;
+$result-product-prize-font-size: 24px;
+$result-product-title-size: 18px;
+$product-detail-state-font-size: 14px;
+$product-detail-title-font-size: 24px;
+$product-detail-price-font-size: 46px;
+
+// Colors
+$white: white;
+$ml-yellow: #FFE600;
+$ml-light-grey: #EEEEEE;
+$ml-grey: #999999;
+$ml-dark-grey: #333333;
+$ml-blue: #3483fa;
+
+$body-background-color: $ml-light-grey;
+$body-color: $ml-grey;
+$search-header-color: $ml-yellow;
+$search-button-background-color: $ml-light-grey;
+$search-route-color: $ml-grey;
+$main-results-container-color: $white;
+$main-details-container-color: $white;
+$searched-product-color: $ml-dark-grey;
+$product-detail-state-color: $ml-dark-grey;
+$product-detail-title-color: $ml-dark-grey;
+$product-detail-price-color: $ml-dark-grey;
+$buy-button-background-color: $ml-blue;
+$buy-button-color: $white;
+$product-detail-description-color: $ml-dark-grey;
+$product-detail-description-content-color: $ml-grey;
+
+// Img
+$ml-logo-img: url(/assets/Logo_ML.png);
+$ml-search-icon: url(/assets/ic_Search.png);
+$ml-shipping-icon: url(/assets/ic_shipping.png);
+
+$header-logo-img: $ml-logo-img;
+$search-img: $ml-search-icon;
+$product-shipping-icon: $ml-shipping-icon;
