@@ -6,3 +6,7 @@ Test práctico para aspirantes al área de Front-end de Mercado Libre.
 * `cd meli-front-end-test`
 * `npm install`
 * `npm run build`
+
+## Tech stack
+* Angular 6
+* Express
