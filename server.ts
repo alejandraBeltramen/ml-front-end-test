@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
 const router 	= express.Router();
-const searched = require('./server/controllers/api/busqueda.ts');
+const searched = require('./server/controllers/api/search.ts');
 const port = 4200;
 
 app.use(bodyParser.json());

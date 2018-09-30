@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { SEARCH_PATH } from './results.constants';
 
 @Injectable()
 export class ResultsService {
   http: HttpClient;
-  SEARCH_PATH = '/api/items?q=';
 
   constructor(http: HttpClient) {
     this.http = http;
@@ -17,6 +17,6 @@ export class ResultsService {
    * @returns Observable<any> - response data
    */
   searchItems(query: string): Observable<any> {
-    return this.http.get(`${this.SEARCH_PATH}${query}`);
+    return this.http.get(`${SEARCH_PATH}${query}`);
   }
 }
